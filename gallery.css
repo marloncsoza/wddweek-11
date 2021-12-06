@@ -1,24 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
-@media only screen and (min-width: 30em)
-  
-
-img{
-    max-width: 100%;
-}
-body {
-  margin: 0 auto;
-  background-image: url('https://th.bing.com/th/id/OIP.tDzMcwhEnSu7ti9vXMkgbQHaE8?pid=ImgDet&w=4000&h=2667&rs=1');
- background-repeat: no-repeat;
-  font-family: 'Oswald', Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  color: #444;  
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: "Noto Serif", Helvetica, Arial, sans-serif;
-  }
 /*header*/
+@media only screen and (min-width: 54em) {
+	main {
+		padding-left: 15px;
+		padding-right: 15px;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+}
+
 header{
     margin: 0 auto;
     text-align: center;
@@ -115,10 +104,37 @@ nav ul li a:hover {
 }
 
  
- 
-
-
-
+ /*more nav*/
+ @media only screen and (min-width: 56em) {
+	nav ul {
+		max-width: 960px;
+        
+	}
+	
+    main{
+        
+        max-width: 960px;
+        
+    }
+    
+}
+      
+@media only screen and (min-width: 37em) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		display: block;
+		flex: 1 1 auto;
+	}
+	nav ul li:first-child {
+		display: none;
+	}
+    nav ul {
+		max-width: 37em;
+        margin: 0 auto;
+	}
+}
 
 /*body*/
 h1 {
@@ -158,6 +174,10 @@ img {
 }
 
 
+/*footer*/
+
+/*footer*/
+
 .contact{
     max-width: 850px;
     margin: 0 auto;
@@ -192,7 +212,6 @@ img {
 footer{
     margin-top: 25px;
     font-family: "Lato", Helvetica, Arial, sans-serif;
-    background-color: #a5a8aa;
+    background-color: #1A5070;
     padding: 15px 0px;
-    text-align: center;
 }
